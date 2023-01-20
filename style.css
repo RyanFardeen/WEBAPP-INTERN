@@ -1,0 +1,88 @@
+/* font-family: 'Assistant', sans-serif;
+font-family: 'Cardo', serif;
+font-family: 'Fredoka One', cursive; */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url(bg1.jpg);
+  background-size: cover;
+  background-repeat: repeat-y;
+}
+
+.navbarhome h2 {
+  font-size: 2.3rem;
+  font-weight: 800;
+  font-family: "Assistant", sans-serif;
+  color: #6820af;
+  letter-spacing: 0.1rem;
+}
+
+.navbarhome a {
+  font-family: "Assistant", sans-serif;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+  text-decoration: none;
+  color: #6820af;
+  font-weight: 600;
+}
+
+#home-content {
+  margin: 6.5rem auto;
+  width: 65%;
+  height: 35vw;
+  padding: 10px;
+  color: white;
+}
+
+.home1 {
+  font-family: "Fredoka One", cursive;
+  margin-top: 2rem;
+  letter-spacing: 0.4rem;
+}
+
+.abtbtn {
+  color: white;
+  border-radius: 1rem;
+  padding: 0.5rem 1.5rem;
+  background-color: #6820af;
+  border: 3px solid white;
+  margin-top: 4rem;
+  font-family: "Fredoka One", cursive;
+  letter-spacing: 0.1rem;
+}
+
+.imgbox1 {
+  /* background-color: rgb(232, 229, 229);
+    border-radius: 10%;
+    box-shadow: 1rem; */
+  border-radius: 38px;
+  background: linear-gradient(45deg, #d2d1d1, #f9f8f8);
+  box-shadow: 5px -5px 24px #e7e6e6, -5px 5px 24px #ebeaea;
+  text-align: center;
+  padding: 1.5rem 2rem;
+  width: 27%;
+}
+
+.serviceimg {
+  width: 40%;
+  margin-bottom: 1rem;
+}
+
+.qheading{
+    font-size: 1.5rem;
+            color: white;
+            font-family: 'Abel', sans-serif;
+            margin-bottom: 0.2rem;
+            letter-spacing: 0.1rem;
+}
+
+.subheading{
+    font-size: 2rem;
+            color: #6820af;
+            margin-bottom: 1rem;
+            font-family: 'Fredoka One', cursive;
+}
+
